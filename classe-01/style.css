@@ -1,0 +1,156 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(./world-140304_960_720.webp);
+    background-size: contain;
+    background-position: top;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border: 50px solid rgba(0, 153, 255, 0.1);
+}
+
+input {
+    margin-top: 60px;
+    margin-bottom: 150px;
+    text-shadow: 3px solid #000000;
+    font-size: 30px;
+    text-align: center;
+    outline: none;
+    width: 20%;
+    height: 40px;
+    border: 20px solid #000000;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+.paises {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.modal {
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 80%;
+    position: fixed;
+    top: 140px;
+    z-index: 1;
+    padding: 5px;
+    width: 1200px;
+    font-size: 60px;
+    border-radius: 20px;
+    border: 10px solid #000000;
+    box-shadow: 5px 5px 5px 5px;
+}
+
+img {
+    height: 99px;
+    width: 180px;
+}
+
+.pais {
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 5px;
+    border: 5px solid #FFFFFF;
+    width: 400px;
+    min-height: 400px;
+    padding: 30px;
+}
+
+.pais:hover {
+    z-index: 1;
+}
+
+.img_transform:hover {
+    border-radius: 20px;
+    transition: 1.5s;
+    border: 15px solid gold;
+    height: 250px;
+    width: 360px;
+}
+
+.bandeira {
+    height: 150px;
+    width: 260px;
+}
+
+.img_maior {
+    height: 400px;
+    width: 660px;
+}
+
+h2,
+span,
+p {
+    font-size: 35px;
+    display: flex;
+    flex-direction: column;
+    color: #FFFFFF;
+}
+
+.elementosDourado:hover {
+    font-size: 50px;
+    color: gold;
+}
+
+.close {
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    border-radius: 65%;
+    top: 0;
+    right: 0;
+    z-index: 2;
+}
+
+.next {
+    width: 35px;
+    height: 35px;
+    border-radius: 65%;
+    position: absolute;
+    top: 600px;
+    right: 50px;
+    z-index: 2;
+}
+
+.prev {
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    border-radius: 65%;
+    top: 600px;
+    left: 50px;
+    z-index: 2;
+}
+
+.hidden {
+    display: none;
+}
+
+.elementosDoModal {
+    font-size: 60px;
+    display: flex;
+    flex-direction: column;
+    color: #FFFFFF;
+}
+
+.elementosDoModalHover:hover {
+    font-size: 80px;
+}

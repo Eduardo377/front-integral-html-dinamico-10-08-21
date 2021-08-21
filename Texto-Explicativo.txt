@@ -1,0 +1,3 @@
+Site com quase todas as inseridas e preenchidas por HTML dinâmico por Java Script, com exercerão da ' div ' que recebeu a classe paises e o input de busca.
+
+Todas as ações são feitas por JS ou estilização no CSS.
